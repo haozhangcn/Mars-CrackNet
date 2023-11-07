@@ -1,0 +1,12 @@
+name: mars_crack
+version: UNet
+mode: base # base or ae
+train_data: earth_mars # earth, mars, earth_mars
+earth: lists/erath.txt
+mars: lists/mars_train.txt
+epochs: 100
+batchsize: 16
+lr: 0.0001
+model: False
+gpu: True
+load: 
